@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.authtoken.models import Token
 
-from account.serializers import RegistrationSerializer, LoginSerializer, ChangepasswordSerializer, ForgotPasswordSerializer, ForgotPasswordCompleteSerializer
+from .serializers import RegistrationSerializer, LoginSerializer, ChangepasswordSerializer, ForgotPasswordSerializer, ForgotPasswordCompleteSerializer
 
 User = get_user_model()
 
